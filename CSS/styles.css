@@ -1,0 +1,33 @@
+html, body {
+  background: #2980B9;
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  min-width: 400px;
+}
+.container{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction:column;
+}
+
+#ville {
+  text-transform: capitalize;
+}
+
+#temperature {
+  font-size: 4em;
+}
+
+#changer {
+  background: rgba(178, 223, 251, .3);
+  cursor: pointer;
+  display:inline-block;
+  padding: 10px;
+}
+
+#changer:hover{
+  box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+  -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+}
